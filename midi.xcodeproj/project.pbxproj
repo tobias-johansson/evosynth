@@ -10,6 +10,7 @@
 		F1ABE77C18AFC19C00E78E64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABE77B18AFC19C00E78E64 /* Foundation.framework */; };
 		F1ABE77F18AFC19C00E78E64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1ABE77E18AFC19C00E78E64 /* main.m */; };
 		F1ABE78318AFC19C00E78E64 /* midi.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F1ABE78218AFC19C00E78E64 /* midi.1 */; };
+		F1ABE78A18AFC84C00E78E64 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1ABE78918AFC84C00E78E64 /* CoreMIDI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		F1ABE77E18AFC19C00E78E64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1ABE78118AFC19C00E78E64 /* midi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "midi-Prefix.pch"; sourceTree = "<group>"; };
 		F1ABE78218AFC19C00E78E64 /* midi.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = midi.1; sourceTree = "<group>"; };
+		F1ABE78918AFC84C00E78E64 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		F1ABE78F18B0015D00E78E64 /* commands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commands.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1ABE78A18AFC84C00E78E64 /* CoreMIDI.framework in Frameworks */,
 				F1ABE77C18AFC19C00E78E64 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +52,7 @@
 		F1ABE76C18AFC19C00E78E64 = {
 			isa = PBXGroup;
 			children = (
+				F1ABE78918AFC84C00E78E64 /* CoreMIDI.framework */,
 				F1ABE77D18AFC19C00E78E64 /* midi */,
 				F1ABE77A18AFC19C00E78E64 /* Frameworks */,
 				F1ABE77818AFC19C00E78E64 /* Products */,
@@ -74,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				F1ABE77E18AFC19C00E78E64 /* main.m */,
+				F1ABE78F18B0015D00E78E64 /* commands.h */,
 				F1ABE78218AFC19C00E78E64 /* midi.1 */,
 				F1ABE78018AFC19C00E78E64 /* Supporting Files */,
 			);
